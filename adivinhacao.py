@@ -1,10 +1,15 @@
+import random
+
+
+
 print("***********************************")
 print("Bem vindo no jogo de Adivinhação!")
 print("***********************************")
 
-numero_secreto = 42 #declaração de variáveis
+numero_secreto = random.randrange(1,101) # 0.0 - 1.0
 total_de_tentativas = 3
 
+print(numero_secreto)
 
 
 for rodada in range(1, total_de_tentativas + 1)  :
