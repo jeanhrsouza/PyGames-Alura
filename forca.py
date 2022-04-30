@@ -1,11 +1,6 @@
 import random
 
-
-
-
-
 def jogar():
-
     imprime_mensagem_abertura()
     palavra_secreta = carrega_palavra_secreta()
 
